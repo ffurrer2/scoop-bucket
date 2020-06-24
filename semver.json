@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/ffurrer2/semver/releases/download/1.0.0/semver_windows_386.zip",
+            "bin": [
+                "semver.exe"
+            ],
+            "hash": "a08031939170bc54f96ffed3ab6581e4bcceb6e3327578583c366b53fcebd41c"
+        },
+        "64bit": {
+            "url": "https://github.com/ffurrer2/semver/releases/download/1.0.0/semver_windows_amd64.zip",
+            "bin": [
+                "semver.exe"
+            ],
+            "hash": "39d62393dc20b96bfa5ebc877669f7253cb09feef3b80b00b3ee0f528ae3ea4c"
+        }
+    },
+    "homepage": "https://github.com/ffurrer2/semver",
+    "license": "MIT",
+    "description": "A semantic versioning command line utility written in Go."
+}
