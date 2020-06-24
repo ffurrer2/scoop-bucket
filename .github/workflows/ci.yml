@@ -1,0 +1,42 @@
+# SPDX-License-Identifier: MIT
+name: CI
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  test-386:
+    name: Test 32-bit Scoop apps
+    runs-on: windows-2019
+    steps:
+    - name: Set up Scoop
+      shell: powershell
+      run: |
+        iwr -useb get.scoop.sh | iex
+        scoop bucket add ffurrer2 https://github.com/ffurrer2/scoop-bucket
+        echo "::add-path::$Env:HOMEDRIVE$Env:HOMEPATH\scoop\shims"
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Test semver installation
+      run: |
+        scoop install --arch 32bit semver
+        semver version
+
+  test-amd64:
+    name: Test 64-bit Scoop apps
+    runs-on: windows-2019
+    steps:
+    - name: Set up Scoop
+      shell: powershell
+      run: |
+        iwr -useb get.scoop.sh | iex
+        scoop bucket add ffurrer2 https://github.com/ffurrer2/scoop-bucket
+        echo "::add-path::$Env:HOMEDRIVE$Env:HOMEPATH\scoop\shims"
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Test semver installation
+      run: |
+        scoop install --arch 64bit semver
+        semver version
