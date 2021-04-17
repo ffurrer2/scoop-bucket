@@ -6,14 +6,14 @@
             "bin": [
                 "semver.exe"
             ],
-            "hash": "7aa3a53627a9a6ff3c657e90412a5eef594d1851db5de4cf450ab43eaeb8a348"
+            "hash": "0b622b8edf372de0e5e0112a24e8da1b0a019007e1d16507e3b8697cc43efe83"
         },
         "64bit": {
             "url": "https://github.com/ffurrer2/semver/releases/download/v1.1.0/semver_windows_amd64.zip",
             "bin": [
                 "semver.exe"
             ],
-            "hash": "2c2dd04fdd148ac3db06c6a247cfc3a284a26a44e51eb7ed6aa3d23a61540d87"
+            "hash": "fce15ffa0095b3b4c1f56da526a5c5d8e4e3d3e79fc83650b8a408db8ffb6ec7"
         }
     },
     "homepage": "https://github.com/ffurrer2/semver",
