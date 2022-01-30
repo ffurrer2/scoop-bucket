@@ -1,19 +1,19 @@
 {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/ffurrer2/semver/releases/download/v1.3.0/semver_windows_386.zip",
+            "url": "https://github.com/ffurrer2/semver/releases/download/v1.4.0/semver_windows_386.zip",
             "bin": [
                 "semver.exe"
             ],
-            "hash": "9f187d0668a407662262d320e2678407881fc9bd80babbad70bf867544e360e3"
+            "hash": "2b1a028ddf64789bd1c1d398ae0d9a8c57d21d05c2a305c59c902c20a583de12"
         },
         "64bit": {
-            "url": "https://github.com/ffurrer2/semver/releases/download/v1.3.0/semver_windows_amd64.zip",
+            "url": "https://github.com/ffurrer2/semver/releases/download/v1.4.0/semver_windows_amd64.zip",
             "bin": [
                 "semver.exe"
             ],
-            "hash": "2efad650c9855e36ef000f7b2c7a2b2696185a69434640eba36672113b10c9e8"
+            "hash": "7c1b3900a357f6a89df57ea9023eda8715e04be29f35f25297f4dfa164eac63c"
         }
     },
     "homepage": "https://github.com/ffurrer2/semver",
