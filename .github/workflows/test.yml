@@ -11,7 +11,7 @@ jobs:
     name: Test 32-bit Scoop apps
     runs-on: windows-latest
     steps:
-    - name: Set up Scoop
+    - name: Setup Scoop
       shell: powershell
       run: |
         iwr -useb get.scoop.sh -outfile 'install.ps1'
@@ -27,7 +27,7 @@ jobs:
     name: Test 64-bit Scoop apps
     runs-on: windows-latest
     steps:
-    - name: Set up Scoop
+    - name: Setup Scoop
       shell: powershell
       run: |
         iwr -useb get.scoop.sh -outfile 'install.ps1'
